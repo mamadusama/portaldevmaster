@@ -1,0 +1,30 @@
+- HomePage
+  - Menu
+    - logo
+    - perfil(editar)
+    - anotações
+    - notificaçoes
+    - img perfil
+
+
+- Fazer Login e Criar Conta (Usuário e Autenticação)
+  - Email 
+  - Username
+  - Senha
+  - Cursos Já Visto
+
+- Cursos
+  - Thumb (imagem do curso)
+  - Titulo
+  - Descrição
+  - Data de Lançamento
+  - Avaliação
+  -Quantidades de Vios
+  - Avaliação
+  - Categoria
+  - Modulos
+     - Videos
+     - Titulo
+
+
+- Bara de Pesquisa
