@@ -1,0 +1,70 @@
+{% load static %}
+
+<nav class="w-full flex justify-between items-center py-3  px-4 fixed z-100">
+    <div class="w-6/12  flex ml-5">
+        <div>
+            <a href="#">
+
+            <img src="{% static 'images/logo.png' %}" alt="Logo Portal Dev Master">
+
+            </a>
+        </div><!--Logo side-->
+
+        <div class="flex ml-5 space-x-3">
+            <a href="#">
+                <i class="fa-solid fa-graduation-cap"></i>
+                inicio
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                perfil
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-book"></i>
+                anotações
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-question"></i>
+                minhas dúvidas
+            </a>
+
+        </div>
+        
+
+    </div>
+    <div class="W-6/12 flex mr-5 space-x-3">
+        <div class="mr-2">
+            <form action="">
+                <input type="text" class="py-1 px-2 rounded-md text-black border-none" placeholder="procure o curso...">
+            </form>
+
+        </div>
+
+        <a href="#" >
+            <i class="fa-solid fa-bell"></i>
+        </a>
+        <p>Olá, Mamadu Sama</p>
+
+        <img src="{% static 'images/perfilusuario.jpeg' %}" alt="Perfil usuario"
+        class="rounded-full w-8 h-8"
+        
+        >
+
+        <div class="dropdown ">
+            <a class="dropdown-toggle fs-4 center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+             
+            </a>
+          
+            <ul class="dropdown-menu mt-3" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </div>
+
+
+
+    </div>
+
+
+</nav>
